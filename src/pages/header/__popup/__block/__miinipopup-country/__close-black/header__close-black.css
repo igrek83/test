@@ -1,0 +1,30 @@
+.header__close-black {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.header__close-black:before,
+.header__close-black:after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 5px;
+  width: 26px;
+  height: 4px;
+  background: #000;
+}
+
+.header__close-black:before {
+  webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.header__close-black:after {
+  webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

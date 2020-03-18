@@ -1,0 +1,12 @@
+.communication__radio-button-checked {
+  display: none;
+  width: 15px;
+  height: 15px;
+  border-left: 3px solid #FFD241;
+  border-bottom: 3px solid #FFD241;
+  transform: rotate(-45deg);
+  margin-top: 8px;
+}
+.communication__radio-button:checked + .communication__radio-button-style > .communication__radio-button-checked {
+  display: flex;
+}

@@ -1,0 +1,13 @@
+.header__minipopup-travel {
+  position: absolute;
+  width: 280px;
+  background-color: #FFF;
+  border-radius: 29.5px;
+  height: 480px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 17px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+@import url("./content/content.css");
+@import url("./communication/communication.css");
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

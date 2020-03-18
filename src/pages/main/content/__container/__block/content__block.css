@@ -1,0 +1,14 @@
+@import url("./__item/content__item.css");
+.content__block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+@media all and (max-width: 800px) {
+  .content__block {
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+  }
+}

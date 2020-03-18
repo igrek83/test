@@ -1,0 +1,12 @@
+.content__price {
+  width: 160px;
+  height: 50px;
+  background-color: #FFD241;
+  color: #000;
+  font-family: 'MuseoSansCyrlBold';
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

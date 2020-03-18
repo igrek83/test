@@ -1,0 +1,20 @@
+@import url("./__description/communication__description.css");
+@import url("./__container/communication__container.css");
+@import url("./__button/communication__button.css");
+@import url("./__block-control/communication__block-control.css");
+@import url("./__secondblock/communication__secondblock.css");
+.communication__form {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 800px) {
+  .communication__form {
+    width: 380px;
+  }
+}
+@media all and (max-width: 380px) {
+  .communication__form {
+    width: 340px;
+  }
+}
+

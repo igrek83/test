@@ -1,0 +1,13 @@
+.content__advertising {
+  width: 130px;
+  height: 17px;
+  background-color: #CB0037;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'MuseoSansCyrls';
+  font-size: 9px;
+  line-height: 11px;
+  color: #FFF;
+}

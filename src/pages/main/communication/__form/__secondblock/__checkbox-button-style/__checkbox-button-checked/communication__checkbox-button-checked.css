@@ -1,0 +1,11 @@
+.communication__checkbox-button-checked {
+  display: none;
+  width: 10px;
+  height: 10px;
+  border-left: 3px solid #FFD241;
+  border-bottom: 3px solid #FFD241;
+  transform: rotate(-45deg);
+}
+.communication__radio-button:checked + .communication__checkbox-button-style > .communication__checkbox-button-checked {
+  display: flex;
+}

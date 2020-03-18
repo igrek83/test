@@ -1,0 +1,16 @@
+@import url("./__input-name/communication__input-name.css");
+@import url("./__input-name/communication__input-name_color_red.css");
+@import url("./__input/communication__input.css");
+@import url("./__error/communication__error.css");
+.communication__block {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 17px;
+}
+
+@media all and (max-width: 380px) {
+  .communication__block {
+    width: 340px;
+  }
+}

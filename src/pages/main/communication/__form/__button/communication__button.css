@@ -1,0 +1,23 @@
+@import  url("./__button-title/communication__button-title.css");
+@import url("./__arrow/communication__arrow.css");
+.communication__button {
+  outline: none;
+  width: 280px;
+  height: 49px;
+  background-color: #ffd241;
+  border-radius: 29.5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 35px;
+}
+@media all and (max-width: 400px) {
+  .communication__button {
+    align-self: center;
+  }
+}
+.communication__button:hover {
+  opacity: .7;
+}

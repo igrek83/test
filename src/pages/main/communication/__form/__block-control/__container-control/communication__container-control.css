@@ -1,0 +1,13 @@
+@import url("./__radio-button-style/communication__radio-button-style.css");
+@import url("./__radio-button/communication__radio-button.css");
+@import url("");
+.communication__container-control {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+@media all and (max-width: 800px) {
+  .communication__container-control {
+    margin-bottom: 20px;
+  }
+}

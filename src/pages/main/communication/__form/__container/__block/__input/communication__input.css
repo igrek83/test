@@ -1,0 +1,119 @@
+.communication__input {
+  outline: none;
+  width: 380px;
+  height: 50px;
+  border: 1px solid #E7E7E7;
+  border-radius: 3px;
+  font-family: 'MuseoSansCyrlSemiBold';
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 9px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media all and (max-width: 380px) {
+  .communication__input {
+    width: 340px;
+  }
+}
+[name="name"]::-webkit-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C8C8C;
+} 
+[name="name"]::-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="name"]:-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="name"]:-ms-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+
+[name="tel"]::-webkit-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C8C8C;
+} 
+[name="tel"]::-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="tel"]:-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="tel"]:-ms-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+
+[name="mesto"]::-webkit-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C8C8C;
+} 
+[name="mesto"]::-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="mesto"]:-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="mesto"]:-ms-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+
+[name="data"]::-webkit-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 16px;
+  color: #8C8C8C;
+} 
+[name="data"]::-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="data"]:-moz-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}
+[name="data"]:-ms-input-placeholder {
+  font-family: 'MuseoSansCyrl';
+  font-size: 10px;
+  line-height: 12px;
+  color: #8C8C8C;
+}

@@ -1,0 +1,10 @@
+.header__button_theme_country {
+  width: 150px;
+  background-color: #FFF;
+}
+@media all and (max-width: 560px) {
+  .header__button_theme_country {
+    width: 280px;
+    margin-bottom: 18px;
+  }
+}

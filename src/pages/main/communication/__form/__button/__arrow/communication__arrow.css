@@ -1,0 +1,13 @@
+.communication__arrow {
+    width: 5px; 
+    height: 30px; 
+}
+  .communication__arrow:after {
+    content: '';
+    display: block;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 5px;
+    height: 5px;
+    transform: translate(8px, 10px) rotate(45deg);
+}

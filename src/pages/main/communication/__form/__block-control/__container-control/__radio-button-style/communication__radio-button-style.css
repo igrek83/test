@@ -1,0 +1,10 @@
+@import url("./__radio-button-checked/communication__radio-button-checked.css");
+.communication__radio-button-style {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #E7E7E7;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

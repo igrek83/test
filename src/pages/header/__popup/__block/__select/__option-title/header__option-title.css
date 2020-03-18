@@ -1,0 +1,8 @@
+.header__option-title {
+  font-family: 'MuseoSansCyrl';
+  font-size: 14px;
+  line-height: 30px;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 10px;
+}

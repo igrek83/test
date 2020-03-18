@@ -1,0 +1,12 @@
+@import url("./__block/content__block.css");
+.content__container {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 800px) {
+  .content__container {
+    width: 100%;
+    align-items: center;
+  }
+}

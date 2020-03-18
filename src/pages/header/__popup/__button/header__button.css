@@ -1,0 +1,21 @@
+@import url("./__button-title/header__button-title.css");
+@import url("./__arrow/header__arrow.css");
+.header__button {
+  outline: none;
+  height: 49px;
+  border-radius: 29.5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media all and (max-width: 560px) {
+  .header__button {
+    height: 40px;
+  }
+}
+.header__button:hover {
+  opacity: .8;
+}

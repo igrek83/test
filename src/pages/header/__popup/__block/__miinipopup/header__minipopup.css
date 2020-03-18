@@ -1,0 +1,11 @@
+.header__minipopup-country {
+  position: absolute;
+  width: 280px;
+  background-color: #FFF;
+  border-radius: 29.5px;
+  height: 500px;
+  z-index: 2;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 17px;
+}

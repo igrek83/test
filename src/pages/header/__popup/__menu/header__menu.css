@@ -1,0 +1,6 @@
+@import url("./__menu-text/header__menu-text.css");
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

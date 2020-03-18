@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body>
+    <div class="pages">
+        <header class="header">
+            <div class="header__container"></div>
+            <div class="header__popup visibility">
+                <div class="header__close"></div>
+                <div class="header__block">
+                    <div class="header__minipopup-country visibility">
+                        <div class="header__close-black"></div>
+                        <h4 class="header__button-title">Страны</h4>
+                        <select size="500" class="header__select">
+                            <optgroup label="Южная Америка" class="header__select-title">
+                                <option value="" class="header__option-title">Аргентина</option>
+                                <option value="" class="header__option-title">Перу</option>
+                                <option value="" class="header__option-title">Бразилия</option>
+                                <option value="" class="header__option-title">Боливия</option>
+                                <option value="" class="header__option-title">Эквадор</option>
+                                <option value="" class="header__option-title">Чили</option>
+                            </optgroup>
+                            <optgroup label="Европа" class="header__select-title">
+                                <option value="" class="header__option-title">Англия</option>
+                                <option value="" class="header__option-title">Франция</option>
+                                <option value="" class="header__option-title">Германия</option>
+                                <option value="" class="header__option-title">Испания</option>
+                                <option value="" class="header__option-title">Португалия</option>
+                                <option value="" class="header__option-title">Андорра</option>
+                            </optgroup>
+                            <optgroup label="Южная Америка" class="header__select-title">
+                                <option value="" class="header__option-title">Аргентина</option>
+                                <option value="" class="header__option-title">Перу</option>
+                                <option value="" class="header__option-title">Бразилия</option>
+                                <option value="" class="header__option-title">Боливия</option>
+                                <option value="" class="header__option-title">Эквадор</option>
+                                <option value="" class="header__option-title">Чили</option>
+                            </optgroup>
+                        </select>
+                        <h4 class="header__country">ВСЕ ТУРЫ НА КОНТИНЕНТЕ</h4>
+                        <ul>
+                            <li class="header__select-title">Северная Америка</li>
+                            <li class="header__select-title">Арктика и Антарктика</li>
+                            <li class="header__select-title">Африка</li>
+                            <li class="header__select-title">Австралия и Океания</li>
+                            <li class="header__select-title">Европа</li>
+                            <li class="header__select-title">Россия</li>
+                            <li class="header__select-title">Азия</li>
+                        </ul>
+                    </div>
+                    <div class="header__minipopup-travel visibility">
+                        <div id="secondClose" class="header__close-black"></div>
+                        <h4 class="header__button-title">Тип путешествия</h4>
+                        <select size="500" class="header__select-travel">
+                            <option value="" class="header__option-title">Активный</option>
+                            <option value="" class="header__option-title">Майский</option>
+                            <option value="" class="header__option-title">На авто</option>
+                            <option value="" class="header__option-title">На корабле</option>
+                            <option value="" class="header__option-title">Новый год</option>
+                            <option value="" class="header__option-title">Поход</option>
+                            <option value="" class="header__option-title">Серфинг</option>
+                            <option value="" class="header__option-title">Эксклюзив</option>
+                            <option value="" class="header__option-title">Экскурсионный</option>
+                            <option value="" class="header__option-title">Экспедиция</option>
+                        </select>
+                    </div>
+                    <button type="button" class="header__button header__button_theme_country">
+                        <span class="header__button-title">Страны</span>
+                        <span class="header__arrow"></span>
+                    </button>
+                    <button type="button" class="header__button header__button_theme_date">
+                        <span class="header__button-title">Даты</span>
+                        <span class="header__arrow"></span>
+                    </button>
+                </div>
+                <button type="button" class="header__button header__button_theme_travel">
+                    <span class="header__button-title">Тип путешествия</span>
+                    <span class="header__arrow"></span>
+                </button>
+                <ul class="header__menu">
+                    <li class="header__menu-text">ПУТЕШЕСТВИЯ</li>
+                    <LI class="header__menu-text">О НАС</LI>
+                    <li class="header__menu-text">ОТЗЫВЫ</li>
+                    <li class="header__menu-text">БЛОГ</li>
+                </ul>
+                <p class="header__tel">+7 (495) 123-45-67</p>
+                <button type="button" class="header__button header__button_theme_search">ПОДБЕРИТЕ МНЕ ТУР</button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="content">
+                <h2 class="content__title">ЗИМБАБВЕ</h2>
+                <div class="content__container">
+                    <div class="content__block">
+                        <div class="content__item">
+                            <div class="content__image content__image_theme_toscana">
+                                <div class="content__price">от 118 112 Р</div>
+                            </div>
+                            <p class="content__country">ИТАЛИЯ</p>
+                            <h3 class="content__block-title">Под небом Тосканы</h3>
+                            <p class="content__road content__road_color_grey">Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна —</p>
+                            <p class="content__road content__road_color_grey content__road_theme_bottom">Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</p>
+                            <p class="content__road content__road_color_black">8 дней / 7 ночей Русский язык</p>
+                            <p class="content__road content__road_color_black content__road_theme_bottom">27.04.19 - 04.05.19 и еще 15 дат</p>
+                            <p class="content__advertising">Авиаперелет включен!</p>
+                        </div>
+                        <div class="content__item">
+                            <div class="content__image content__image_theme_iceland">
+                                <div class="content__price">140 715 Р</div>
+                            </div>
+                            <p class="content__country">ИСЛАНДИЯ</p>
+                            <h3 class="content__block-title">Майские каникулы в Исландии</h3>
+                            <p class="content__road content__road_color_grey">Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс —</p>
+                            <p class="content__road content__road_color_grey">Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль —</p>
+                            <p class="content__road content__road_color_grey content__road_theme_bottom">Arnarstapi — Рейкьявик</p>
+                            <p class="content__road content__road_color_black">8 дней / 7 ночей Русский язык</p>
+                            <p class="content__road content__road_color_black">27.04.19 - 04.05.19</p>
+                        </div>
+                    </div>
+                    <div class="content__block">
+                        <div class="content__item">
+                            <div class="content__image content__image_theme_turkey">
+                                <div class="content__price">37 302 Р</div>
+                            </div>
+                            <p class="content__country">ТУРЦИЯ</p>
+                            <h3 class="content__block-title">Открытие Турции</h3>
+                            <p class="content__road content__road_color_grey">Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы</p>
+                            <p class="content__road content__road_color_grey content__road_theme_bottom">— Пергам — Ассос — Троя — Стамбул</p>
+                            <p class="content__road content__road_color_black">8 дней / 7 ночей Русский язык</p>
+                            <p class="content__road content__road_color_black">28.04.19 - 05.05.19 и еще 3 даты</p>
+                        </div>
+                        <div class="content__item">
+                            <div class="content__image content__image_theme_norway">
+                                <div class="content__price">145 000 Р</div>
+                            </div>
+                            <p class="content__country">НОРВЕГИЯ, ШПИЦБЕРГЕН</p>
+                            <h3 class="content__block-title">От Свальбарда до Груманта</h3>
+                            <p class="content__road content__road_color_black">8 дней / 7 ночей Русский язык</p>
+                            <p class="content__road content__road_color_black content__road_theme_bottom">27.04.19 - 04.05.19 и еще 15 дат</p>
+                            <p class="content__advertising">Гарантированный тур!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="communication">
+                <h2 class="communication__title">Заявка на подбор путешествия</h2>
+                <form name="form" class="communication__form" novalidate>
+                    <p class="communication__description">НЕМНОГО О ВАС</p>
+                    <div class="communication__container">
+                        <div class="communication__block">
+                            <p class="communication__input-name">ИМЯ<span class="communication__input-name communication__input-name_color_red">*</span></p>
+                            <input type="text" name="name" minlength="2" maxlength="45" placeholder="Александр" class="communication__input" required>
+                            <span class="communication__error"></span>
+                        </div>
+                        <div class="communication__block">
+                            <p class="communication__input-name">ТЕЛЕФОН</p>
+                            <input type="tel" name="tel" placeholder="+7 000 000 00 00" pattern="^(\+7(((\([0-9]{3}\) ?)|( [0-9]{3}-))[0-9]{3}-[0-9]{2}-[0-9]{2}))|((\+7|8)[0-9]{10})$" class="communication__input">
+                        </div>
+                    </div>
+                    <p class="communication__description">О ПУТЕШЕСТВИИ</p>
+                    <div class="communication__container">
+                        <div class="communication__block">
+                            <p class="communication__input-name">КУДА ХОТИТЕ ПОЕХАТЬ?<span class="communication__input-name communication__input-name_color_red">*</span></p>
+                            <input type="text" name="mesto" minlength="2" maxlength="45" placeholder="Континент, страна или город" class="communication__input" required>
+                            <span class="communication__error"></span>
+                            <p class="communication__description none">УДОБНЫЙ СПОСОБ СВЯЗИ</p>
+                        </div>
+                        <div class="communication__block">
+                            <p class="communication__input-name">КОГДА</p>
+                            <input type="text" name="data" placeholder="Дата или временной интервал" class="communication__input">
+                            <span class="communication__error"></span>
+                            <p class="communication__description none">ОТКУДА УЗНАЛИ О НАС</p>
+                        </div>
+                    </div>
+                    <div class="communication__block-control">
+                        <p class="communication__dubledescription">УДОБНЫЙ СПОСОБ СВЯЗИ</p>
+                        <div class="communication__container-control">
+                             <input type="radio" name="communication" id="button-a" class="communication__radio-button" checked>
+                            <label for="button-a" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="communication" id="button-b" class="communication__radio-button">
+                            <label for="button-b" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="communication" id="button-c" class="communication__radio-button">
+                            <label for="button-c" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="communication" id="button-d" class="communication__radio-button">
+                            <label for="button-d" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                        </div>
+                        <p class="communication__dubledescription">ОТКУДА УЗНАЛИ О НАС</p>
+                        <div class="communication__container-control">
+                            <input type="radio" name="knowledge" id="button-e" class="communication__radio-button" checked>
+                            <label for="button-e" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="knowledge" id="button-f" class="communication__radio-button">
+                            <label for="button-f" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="knowledge" id="button-g" class="communication__radio-button">
+                            <label for="button-g" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                            <input type="radio" name="knowledge" id="button-h" class="communication__radio-button">
+                             <label for="button-h" class="communication__radio-button-style">
+                                <span class="communication__radio-button-checked"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="communication__secondblock">
+                        <input type="checkbox" id="news" class="communication__radio-button">
+                        <label for="news" class="communication__checkbox-button-style">
+                            <span class="communication__checkbox-button-checked"></span>
+                        </label>
+                        <div class="communication__description-block">
+                            <p class="communication__text communication__text_color_black">Получать свежие предложения по электронной почте</p>
+                            <p class="communication__text communication__text_color_grey">Каждую неделю мы делаем для вас обзор лучших экспедиций, статей и лайфхаков для путешественников. Если вдруг вам не понравится, вы сможете</p>
+                            <p class="communication__text communication__text_color_grey">отписаться в любой момент.</p>
+                        </div>
+                    </div>
+                    <div class="communication__secondblock">
+                        <input type="checkbox" id="consent" class="communication__radio-button" checked>
+                        <label for="consent" class="communication__checkbox-button-style">
+                            <span class="communication__checkbox-button-checked"></span>
+                        </label>
+                        <div class="communication__description-block">
+                            <p class="communication__text communication__text_color_black">С обработкой своих персональных данных согласен.<span class="communication__input-name communication__input-name_color_red">*</span></p>
+                            <p class="communication__text communication__text_color_grey communication__text_theme_bottom">Отправляя заявку я подтверждаю согласие с условиями Пользовательского соглашения</p>
+                            <p class="communication__text communication__text_color_grey"><span class="communication__input-name communication__input-name_color_red">*</span>Поля, которые надо обязательно заполнить</p>
+                        </div>
+                    </div>
+                    <button type="submit" class="communication__button" disabled>
+                        <span class="communication__button-title">ОТПРАВИТЬ</span>
+                        <span class="communication__arrow"></span>
+                    </button>
+                </form>
+            </section>
+        </main>
+    </div> 
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

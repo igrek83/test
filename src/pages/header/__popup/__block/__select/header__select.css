@@ -1,0 +1,10 @@
+@import url("./__select-title/header__select-title.css");
+@import url("./__option-title/header__option-title.css");
+.header__select {
+  width: 210px;
+  height: 200px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

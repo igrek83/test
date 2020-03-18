@@ -1,0 +1,10 @@
+@import url("./__container/header__container.css");
+@import url("./__popup/header__popup.css");
+.header {
+  position: relative;
+  background-color: #FFD241;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 23px;
+}

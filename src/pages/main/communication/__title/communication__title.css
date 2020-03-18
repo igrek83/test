@@ -1,0 +1,15 @@
+.communication__title {
+  font-family: 'MuseoSansCyrlBold';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+@media all and (max-width: 550px) {
+  .communication__title {
+    width: 340px;
+  }
+}

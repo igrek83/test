@@ -1,0 +1,10 @@
+@import url("./__text/communication__text_color_black.css");
+@import url("./__text/communication__text_color_grey.css");
+@import url("./__text/communication__text_theme_bottom.css");
+@import url("./__text/communication__text.css");
+.communication__description-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
+  margin-left: 15px;
+}

@@ -1,0 +1,36 @@
+.communication__description {
+  font-family: 'MuseoSansCyrlSemiBold';
+  font-size: 10px;
+  line-height: 12px;
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+  margin-right: auto;
+}
+
+
+
+
+/*пришлось сделать костыль, на нормальную переделку не осталось времени*/
+@media all and (max-width: 800px) {
+  .none {
+    display: none;
+  }
+}
+.communication__dubledescription {
+  font-family: 'MuseoSansCyrlSemiBold';
+  font-size: 10px;
+  line-height: 12px;
+  color: #000;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+  margin-right: auto;
+  display: none;
+}
+@media all and (max-width: 800px) {
+  .communication__dubledescription {
+    display: flex;
+  }
+}

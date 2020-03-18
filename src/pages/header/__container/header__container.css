@@ -1,0 +1,9 @@
+.header__container {
+  width: 30px;
+  height: 22px;
+  background-image:linear-gradient(#000 0px 4px, #FFD241 6px 9px, #000 10px 13px, #FFD241 14px 17px, #000 18px 22px);
+  cursor: pointer;
+}
+.header__container:hover {
+  opacity: .7;
+}

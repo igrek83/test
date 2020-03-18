@@ -1,0 +1,6 @@
+@import url("./__checkbox-button-style/communication__checkbox-button-style.css");
+@import url("./__description-block/communication__description-block.css");
+.communication__secondblock {
+  display: flex;
+  padding-bottom: 40px;
+}

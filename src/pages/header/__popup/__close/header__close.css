@@ -1,0 +1,24 @@
+.header__close {
+  height: 20px; 
+  width: 4px;
+  background: #FFF;
+  align-self: flex-end;
+  position: relative; 
+  transform: rotate(135deg);
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 55px;
+}
+.header__close::before {
+  content: "";
+  height: 4px; 
+  width: 20px;
+  background: #FFF;
+  position: absolute; 
+  left: -8px; 
+  top: 8px;
+}
+.header__close:hover {
+  opacity: .6;
+}

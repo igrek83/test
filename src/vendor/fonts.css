@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./MuseoSans/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+		 url('./MuseoSans/MuseoSansCyrl-500.woff') format('woff'),
+		 url('./MuseoSans/MuseoSansCyrl-500.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'MuseoSansCyrlBold';
+    font-weight: bold;
+	font-style: normal;
+	src: url('./MuseoSans/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+		 url('./MuseoSans/MuseoSansCyrl-900.woff') format('woff'),
+		 url('./MuseoSans/MuseoSansCyrl-900.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrlSemiBold';
+    font-weight: normal;
+	font-style: normal;
+	src: url('./MuseoSans/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+		 url('./MuseoSans/MuseoSansCyrl-700.woff') format('woff'),
+		 url('./MuseoSans/MuseoSansCyrl-700.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'MuseoSansCyrls';
+    font-weight: 300;
+	font-style: normal;
+	src: url('./MuseoSans/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		 url('./MuseoSans/MuseoSansCyrl-300.woff') format('woff'),
+		 url('./MuseoSans/MuseoSansCyrl-300.ttf') format('truetype');
+	
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrlLight';
+    font-weight: 100;
+	font-style: normal;
+	src: url('./MuseoSans/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+		 url('./MuseoSans/MuseoSansCyrl-100.woff') format('woff'),
+		 url('./MuseoSans/MuseoSansCyrl-100.ttf') format('truetype');
+}

@@ -1,0 +1,8 @@
+@import url("./__title/communication__title.css");
+@import url("./__form/communication__form.css");
+.communication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 164px;
+}

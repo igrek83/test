@@ -1,0 +1,15 @@
+@import url("./__price/content__price.css");
+.content__image {
+  display: flex;
+  width: 380px;
+  height: 218px;
+  background-size: cover;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+@media all and (max-width: 380px) {
+  .content__image {
+    width: 340px;
+    height: 195px;
+  }
+}

@@ -1,0 +1,19 @@
+@import url("./__miinipopup-country/header__minipopup-country.css");
+@import url("./__mimnipopup-travel/header__minipopup-travel.css");
+@import url("./__select/header__select.css");
+@import url("./__select-travel/header__select-travel.css");
+
+.header__block {
+  position: relative;
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+@media all and (max-width: 560px) {
+  .header__block {
+    justify-content: start;
+    flex-direction: column;
+  }
+}

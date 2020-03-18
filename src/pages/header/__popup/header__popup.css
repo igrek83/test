@@ -1,0 +1,26 @@
+@import url("./__close/header__close.css");
+@import url("./__block/header__block.css");
+@import url("./__button/header__button.css");
+@import url("./__button/header__button_theme_country.css");
+@import url("./__button/header__button_theme_date.css");
+@import url("./__button/header__button_theme_travel.css");
+@import url("./__button/header__button_theme_search.css");
+@import url("./__menu/header__menu.css");
+@import url("./__tel/header__tel.css");
+.header__popup {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 530px;
+  height: 800px;
+  background-color: #FFD241;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 55px;
+}
+@media all and (max-width: 560px) {
+  .header__popup {
+    width: 375px;
+  }
+}

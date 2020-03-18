@@ -1,0 +1,22 @@
+@import url("./__image/content__image.css");
+@import url("./__image/content__image_theme_toscana.css");
+@import url("./__image/content__image_theme_iceland.css");
+@import url("./__image/content__image_theme_turkey.css");
+@import url("./__image/content__image_theme_norway.css");
+@import url("./__country/content__country.css");
+@import url("./__block-title/content__block-title.css");
+@import url("./__road/content__road.css");
+@import url("./__road/content__road_theme_bottom.css");
+@import url("./__road/content__road_color_grey.css");
+@import url("./__road/content__road_color_black.css");
+@import url("./__advertising/content__advertising.css");
+.content__item {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+@media all and (max-width: 380px) {
+  .content__item {
+    width: 340px;
+  }
+}

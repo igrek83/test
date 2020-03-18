@@ -1,0 +1,10 @@
+@import url("./__checkbox-button-checked/communication__checkbox-button-checked.css");
+.communication__checkbox-button-style {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  border: 1px solid #CB0037;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

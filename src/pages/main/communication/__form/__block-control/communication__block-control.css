@@ -1,0 +1,15 @@
+@import url("./__container-control/communication__container-control.css");
+.communication__block-control {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+@media all and (max-width: 800px) {
+  .communication__block-control {
+    width: 100%;
+    justify-content: start;
+    flex-direction: column;
+  }
+}
